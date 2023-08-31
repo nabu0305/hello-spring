@@ -11,4 +11,6 @@ public interface MemberRepository {
     Optional<Member> findByName(String name);//회원 아이디
 
     List<Member> findAll();
+
+    void clearStore();
 }
